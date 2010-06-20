@@ -9,7 +9,7 @@ import Text.Blaze.Html5.Attributes hiding (title)
 import Snap.Types
 import Snap.Http.Server
 
-main = httpServe "*" 8080 "localhost"
+main = httpServe "*" 8081 "localhost"
                  (Just "access.log")
                  (Just "error.log")
                  mainSnap
