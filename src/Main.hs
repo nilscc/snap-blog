@@ -10,7 +10,7 @@ import Snap.Types
 import Snap.Http.Server
 import Snap.Util.FileServe
 
-main = httpServe "*" 8080 "localhost"
+main = httpServe "*" 8081 "localhost"
                  (Just "access.log")
                  (Just "error.log")
                  mainSnap
