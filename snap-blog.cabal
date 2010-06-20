@@ -1,0 +1,14 @@
+Name:           snap-blog
+Version:        0.0
+Description:    A simple blog using the snap framework
+Build-Type:     Simple
+Cabal-Version:  >= 1.2
+
+Executable snap-blog
+    Main-is:            Main.hs
+    Hs-Source-Dirs:     src
+    Build-Depends:
+        base == 4.*,
+        snap-core,
+        snap-server,
+        blaze-html
